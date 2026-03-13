@@ -4,8 +4,8 @@ using namespace std;
 void insertionSort(int arr[], int size){
     for (int i=0; i<size; i++){
         int ele = arr[i];
-        int j = i -1;
-
+        int j = i - 1;
+        
         while(j >= 0 && arr[j] > ele){
             arr[j+1] = arr[j];
             j--;
